@@ -1,7 +1,17 @@
 import React from 'react';
 import Review from './Review';
+
+
 function App() {
-  return <h2>reviews project setup</h2>;
+  return (
+    <main>
+      <section className="container">
+        <h2 className="title">Ours Reviews</h2>
+        <div className="underline"></div>
+      </section>
+      <Review />
+    </main>
+  )
 }
 
 export default App;
